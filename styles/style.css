@@ -32,3 +32,19 @@ nav {
 .sub-nav-link.active {
   font-weight: bolder;
 }
+@media only screen and (min-width: 1000px) {
+  .sidebar-button {
+    display: none;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .sidebar,
+  .sub-nav-link {
+    min-width: 250px;
+    margin: 0 auto;
+  }
+}
